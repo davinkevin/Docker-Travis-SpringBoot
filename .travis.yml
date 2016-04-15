@@ -23,9 +23,10 @@ deploy:
     tags: true
 
 after_deploy:
+- mvn docker:build
 - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
 - docker images
-- docker push docker.io/davinkevin/poc-docker-travis
+- docker push davinkevin/poc-docker-travis
 
 env:
   global:
