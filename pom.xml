@@ -5,7 +5,7 @@
 
 	<groupId>com.github.davinkevin</groupId>
 	<artifactId>springboottravisdocker</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.3</version>
 	<packaging>jar</packaging>
 
 	<name>docker-travis-spring-boot</name>
