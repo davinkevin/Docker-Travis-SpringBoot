@@ -14,3 +14,4 @@ deploy:
   file: target/app.jar
   on:
     repo: davinkevin/Docker-Travis-SpringBoot
+    tags: true
