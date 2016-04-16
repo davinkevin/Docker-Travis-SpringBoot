@@ -10,7 +10,7 @@ services:
 
 install: true
 
-script: mvn install
+script: mvn package
 
 deploy:
   provider: releases
